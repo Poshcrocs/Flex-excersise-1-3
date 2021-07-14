@@ -56,5 +56,6 @@ article {
 #right-main {
     width: 30%;
     border: solid 3px black;
+    padding: 5px;
 }
 
