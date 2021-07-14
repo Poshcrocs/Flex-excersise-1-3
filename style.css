@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#nav-bar {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#nology {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 200px;
+}
+
+#link-bar {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+div {text-align: center;}
