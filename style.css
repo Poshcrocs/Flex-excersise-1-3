@@ -12,9 +12,7 @@
     align-items: center;
     justify-content: space-between;
     height: 50px;
-    margin: 0px;
-    padding: 0px;
-}
+    }
 
 
 #nology {
@@ -40,6 +38,8 @@ main {
     justify-content: space-evenly;
 }
 
+/* left side */
+
 #left-main {
     width: 60%;
     display: flex;
@@ -47,11 +47,31 @@ main {
     justify-content: space-between;
 }
 
-article {
+article.panel {
     border: solid 3px black;
-    height: 30%;
+    min-height: 30%;
     padding: 5px;
+    
 }
+
+#boxes1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#boxes2 {
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+#boxes3 {
+    display: flex;
+    justify-content: left;
+}
+
+/* Right hand side */
 
 #right-main {
     width: 30%;
@@ -59,15 +79,17 @@ article {
     padding: 5px;
 }
 
-ul {
-    margin-left: 50px;
-    margin-top: 20px;
+
+div {
+    background-color: black;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
 }
 
-li {
-    height: 25%;
-}
 
-p, li {
+p, div {
     font-size: 18px;
 }
