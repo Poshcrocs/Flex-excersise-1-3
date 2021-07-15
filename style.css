@@ -32,6 +32,10 @@
 }
 /* Bar above, main below */
 
+p, div {
+    font-size: 18px;
+}
+
 main {
     padding: 10px;
     display: flex;
@@ -51,7 +55,6 @@ article.panel {
     border: solid 3px black;
     min-height: 30%;
     padding: 5px;
-    
 }
 
 #boxes1 {
@@ -62,23 +65,12 @@ article.panel {
 #boxes2 {
     display: flex;
     justify-content: flex-end;
-    
-    
 }
 
 #boxes3 {
     display: flex;
     justify-content: left;
 }
-
-/* Right hand side */
-
-#right-main {
-    width: 30%;
-    border: solid 3px black;
-    padding: 5px;
-}
-
 
 div {
     background-color: black;
@@ -89,7 +81,11 @@ div {
     color: white;
 }
 
+/* Right hand side */
 
-p, div {
-    font-size: 18px;
+#right-main {
+    width: 30%;
+    border: solid 3px black;
+    padding: 5px;
 }
+
